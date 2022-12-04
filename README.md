@@ -4,18 +4,13 @@ Download the complete source code of any website (including all assets) 🔨.
 👉 Live Demo: https://website-downloader.onrender.com
 
 ![enter image description here](https://github.com/AhmadIbrahiim/Website-downloader/blob/master/public/Record.gif?raw=true)
-<div align="center">
-
-  <a href="">![CodeFactor](https://www.codefactor.io/repository/github/ahmadibrahiim/website-downloader/badge)</a>
-
-</div>
 
 ## Description 📒
  Website downloader works with `wget` and `archiver` to download all websites assets and compress then sends it back to the user through socket channel
- 
+
  **wget params the being used**
- 
- `wget --mirror --convert-links --adjust-extension --page-requisites 
+
+ `wget --mirror --convert-links --adjust-extension --page-requisites
 --no-parent http://example.org`
 
  **Explanation of the various flags:**
@@ -36,8 +31,8 @@ Download the complete source code of any website (including all assets) 🔨.
 
 ## How to run it 🤔
 
-- `git clone https://github.com/AhmadIbrahiim/Website-downloader.git`
-- `cd website-downloader`
+- `git clone git@github.com:cihat/website-downloader-desktop.git`
+- `cd website-downloader-desktop`
 - `$ npm install`
 - `$ npm start`
 - `http://localhost:3000/`
