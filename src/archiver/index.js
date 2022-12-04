@@ -1,8 +1,12 @@
 const archiver = require("archiver")
 const fs = require("fs")
+const path = require("path")
 
 module.exports = (file, io, data) => {
-  const output = fs.createWriteStream("./public/sites/" + file + ".zip")
+  const output = fs.createWriteStream(
+    path.join(process.cwd(), "src", "public", "sites", `${file}.zip`)
+  )
+
   const archive = archiver("zip", {
     zlib: { level: 9 }, // Sets the compression level.
   })
