@@ -2,8 +2,9 @@
   "name": "website-downloader-desktop",
   "version": "1.0.0",
   "description": "This is website-downloader project desktop version",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "dev": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/cihat/website-downloader-desktop/issues"
   },
-  "homepage": "https://github.com/cihat/website-downloader-desktop#readme"
+  "homepage": "https://github.com/cihat/website-downloader-desktop#readme",
+  "dependencies": {
+    "electron": "^22.0.0"
+  }
 }
