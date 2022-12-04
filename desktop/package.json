@@ -1,0 +1,29 @@
+{
+  "name": "website-downloader-desktop",
+  "version": "1.0.0",
+  "description": "This is website-downloader project desktop version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cihat/website-downloader-desktop.git"
+  },
+  "keywords": [
+    "website-downloader-desktop",
+    "electron",
+    "desktop-app",
+    "JavaScript",
+    "web",
+    "linux",
+    "windows",
+    "macOS"
+  ],
+  "author": "Cihat SALIK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cihat/website-downloader-desktop/issues"
+  },
+  "homepage": "https://github.com/cihat/website-downloader-desktop#readme"
+}
